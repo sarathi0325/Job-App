@@ -1,0 +1,50 @@
+.filter-container {
+  width: 100%;
+}
+
+.filter-container h1 {
+  font-size: 16px;
+  color: #fff;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radiobox-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.each-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.each-radiobox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.each-radiobox label {
+  font-size: 16px;
+}
+input {
+  cursor: pointer;
+}
+label {
+  cursor: pointer;
+}
+
+.type-of-employment-container {
+  width: 100%;
+}
+
+.salary-range-container {
+  margin-top: 15px;
+  padding-bottom: 5px;
+}
